@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 const checkAnswer = (ev, i, problemScheme, table) => {
-  if (ev.key == 'Enter'){
+  if (ev.key === 'Enter'){
     const answer = problemScheme.getAnswer()
 
     const userAnswer = ev.target.value.replace(/[\s,]/, '').toUpperCase()
