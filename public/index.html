@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+    <title>Base 16 Drill</title>
+<style>
+.btn {
+    color: #000;
+    font-size: 16px;
+    background: #fff;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    cursor: pointer;
+    border: solid 1px #888;
+}
+
+.btn:hover {
+  background: #6b6b6b;
+  text-decoration: none;
+}
+table {
+  font-size: 16px;
+}
+
+.core {
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+input[type="text"] {
+    border: none;
+    border-bottom: solid 1px #BBB;
+    font-size: 16px;
+}
+input[type="text"]:focus {
+    outline: none;
+}
+.problem {
+    text-align: end;
+    padding: 5px 5px 0 3px;
+}
+.your-answer {
+    padding: 5px 0 0 0;
+}
+.correct {
+    font-weight: 900;
+    color: #008400;
+}
+@media screen and (min-width: 900px) {
+    table, input[type="text"] {
+        font-size: 32px;
+    }
+    table {
+        margin-left: 30px;
+    }
+    .problem {
+        padding: 12px 15px 0 0px;
+    }
+    .your-answer {
+        padding: 12px 15px 0 0;
+    }
+}
+</style>
+  </head>
+  <body>
+    <div id="root" />
+    <script src="/main.bundle.js"></script>
+  </body>
+</html>
