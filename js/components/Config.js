@@ -3,8 +3,6 @@ import Generator from '../Generator'
 import configs, { plusConfig } from '../configs'
 import Table from './Table'
 
-const store = {}
-
 const clear = () => {
   const answers = document.querySelectorAll(".answer")
   answers.forEach(answer => {
